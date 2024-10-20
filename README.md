@@ -29,17 +29,17 @@ ChangeResolution.exe -x <width> -y <height> [-p <program path>] [-w]
 - `-p <program path>`: (Optional) Specifies the path to the program to launch or wait for.
 - `-w`: (Optional) Indicates that the program should wait for the specified program to start. This cannot be used without specifying a program path with `-p`.
 
-### Example for RetroArch
+### Example
 
-To change the resolution to **1920x1080** and wait for RetroArch to start, use the following command:
+To change the resolution to **1920x1080** and wait for a program to start, use the following command:
 
-ChangeResolution.exe -x 1920 -y 1080 -p "C:\Path\To\RetroArch.exe" -w
-
-
-If you want to change the resolution and immediately launch RetroArch, you can use:
+ChangeResolution.exe -x 1920 -y 1080 -p "C:\Path\To\program.exe" -w
 
 
-ChangeResolution.exe -x 1920 -y 1080 -p "C:\Path\To\RetroArch.exe"
+If you want to change the resolution and immediately launch the program, you can use:
+
+
+ChangeResolution.exe -x 1920 -y 1080 -p "C:\Path\To\program.exe"
 
 
 
